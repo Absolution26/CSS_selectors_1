@@ -1,0 +1,173 @@
+@import url(nullstyle.css);
+
+.container {
+    width: 860px;
+    margin: 0 auto;
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.block-right {
+    width:220px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.block-right__image {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    border: solid 1px #1275b9;
+    border-radius:50%;
+}
+.block-right__image:hover {
+    
+    background-color:#1275b9;
+}
+.block-right__image svg{
+    fill:#1275b9;
+}
+.block-right__image--img:hover{
+    /* filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(257deg) brightness(107%) contrast(101%); */
+    fill: white;
+}
+.block-right__title {
+    margin:20px 0 22px 0;
+    font-family: 'Proxima Nova Regular';
+    object-fit:contain;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #000000;
+}
+.block-right__text {
+    object-fit: contain;
+    font-family: 'Proxima Nova Light';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #9d9d9d;
+}
+.block-center {
+    width:220px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.block-center__image {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 65px;
+    height: 65px;
+    border: solid 1px #1275b9;
+    background-color:#1275b9;
+    border-radius:50%;
+}
+.block-center__image:hover {
+    background-color:white;
+}
+.block-center__image svg{
+    fill:#ffffff;
+}
+.block-center__image svg:hover{
+    fill:#1275b9;
+}
+
+.block-center__title {
+    margin:20px 0 22px 0;
+    font-family: 'Proxima Nova Regular';
+    object-fit:contain;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #000000;
+}
+.block-center__text {
+    object-fit: contain;
+    font-family: 'Proxima Nova Light';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #9d9d9d;
+}
+.block-left {
+    width:220px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.block-left__image {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 65px;
+    height: 65px;
+    background-color: #1275b9;
+    border: solid 1px #1275b9;
+    border-radius:50%;
+    
+}
+.block-left__image:hover {
+    background-color:white;
+    
+}
+.block-left__image svg{
+    fill:#ffffff;
+}
+.block-left__image svg:hover{
+    fill:#1275b9;
+}
+
+.block-left__title {
+    margin:20px 0 22px 0;
+    font-family: 'Proxima Nova Regular';
+    object-fit:contain;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #000000;
+}
+.block-left__text {
+    font-weight: 300;
+    object-fit: contain;
+    font-family: 'Proxima Nova Light';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #9d9d9d;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('ProximaNova-Regular.eot');
+    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Proxima Nova Light';
+    src: url('ProximaNova-Light.eot');
+    src: url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('ProximaNova-Light.woff') format('woff'),
+    url('../fonts/ProximaNova-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
